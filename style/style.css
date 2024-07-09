@@ -139,6 +139,51 @@ height: 550px;
     border-radius: 16px;
 }
 
+.my-current-target{
+    position: static;
+width: 1140px;
+height: 463px;
+border: 2px solid red;
+
+}
+.my-current-target-next{
+    display: flex;
+}
+
+.my-current-target-text{
+    position: static;
+width: 946px;
+height: 115px;
+margin: auto;
+}
+
+.text{
+    position: static;
+width: 284px;
+height: 220px;
+}
+
+.des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+
+text-align: left;
+}
+
+.target-btn{
+    Font: Azeret Mono
+Font weight: 700
+Font size: 16pxpx
+Row height: 19px
+
+rgb(13, 19, 33)
+Align: Align left
+}
+
 
 
 
