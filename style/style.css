@@ -9,8 +9,8 @@
     /* border: 2px solid red; */
     max-width: 1440px;
     height: 652px;
-    background-image: url(/assets/Hero-bg.png);
-      
+    background-image: url(../assets/Hero-bg.png);
+    margin: auto;
 }
 
 .header-sub{
@@ -21,13 +21,13 @@
     width: 998px;
     height: 581px;
     /* border: 2px solid green; */
-    adding: 0px;
-    position: absolute;
+    margin: auto;
+    
     
     left: 121px;
-     right: 221px;
+    right: 221px;
     top: 50px;
-     bottom: 3506px;
+    bottom: 3506px;
 }
 
 .header-img{
@@ -36,19 +36,19 @@
     left: 257%;
     right: -257%;
     transform: rotate(180deg);
-    top: 0%;
-    bottom: 0%;
+    
 
 }
 
 .header-title{
-    color: rgb(13, 19, 33);
+color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 48px;
 font-weight: 800;
 line-height: 68px;
-letter-spacing: 0%;
+
 text-align: center;
+margin: auto;
 }
 
 .header-description{
@@ -57,7 +57,7 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
-letter-spacing: 0%;
+
 text-align: center;
 opacity: 0.7;
 }
@@ -75,22 +75,25 @@ border-radius: 8px;
     border: 16px ;
     padding: 80px, 97px;
     width: 1140px;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin: auto;
+    /* margin-top: 40px;
+    margin-left: 40px; */
 /* height: 1395px; */
-left: 148px;
-right: 52px;
-top: 857px;
-bottom: 2993px;
-border-radius: 16px;
+   left: 148px;
+   right: 52px;
+    top: 857px;
+   bottom: 2993px;
+   border-radius: 16px;
 
-background: rgba(13, 19, 33, 0.02);
+   background: rgba(13, 19, 33, 0.02);
 }
 
 .main=02{
     position: static;
-width: 946px;
-height: 1235px;
+    
+   width: 946px;
+   height: 1235px;
+ 
 }
 .main-title{
     color: rgb(13, 19, 33);
@@ -98,7 +101,7 @@ font-family: Azeret Mono;
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
-letter-spacing: 0%;
+
 text-align: center;
 }
 
@@ -113,14 +116,22 @@ text-align: center;
     padding: static;
     margin-left: 60px;
     justify-content: space-between;
+    border-radius: 16px;
 }
-
+/* .main-03-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+} */
 .main-03-title{
     position: static;
 width: 377px;
 height: 40px;
 
 }
+
+
 
 .main-btn{
     margin-top: 30px;
@@ -132,21 +143,23 @@ height: 48px;
 .youtube-video{
     
     position: static;
-    width: 1076px;
-height: 550px;
-    margin-left: 25%;
+    margin: auto;
+    /* margin-left: auto; */
     border-radius: 16px;
 }
 
 .my-current-target{
     position: static;
-width: 1140px;
+width: 1080px;
 height: 463px;
-border: 2px solid red;
+border: 2px;
+/* margin: auto; */
 
 }
 .my-current-target-next{
     display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .my-current-target-text{
@@ -188,39 +201,60 @@ Align: Align left
 .footer-content{
     border: 2px solid green;
 
-border-radius: 16px;
-padding: 64px, 48px;
-margin-top: 25px;
-margin-left: 5%;
-display: flex;
+    border-radius: 16px;
+   padding: 64px, 48px;
+   /* margin-top: 25px;
+    margin-left: 5%; */
+    margin: auto;
+    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
     width: 1140px;
-height: 314px;
-margin-bottom: 25px;
-background-image: url(/assets/handshake.jpg);
-
-
-
-
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+  height: 314px;
+ margin-bottom: 25px;
+  background-image: url(../assets/handshake.jpg);
 
 }
 
 .footer-content-text{
-    width: 730px;
-height: 104px;
-margin: auto;
-margin-top: 10px;
+   width: 730px;
+   height: 104px;
+   margin: auto;
+   margin-top: 10px;
+   border: 1px;
+
+}
+
+.footer-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+
+text-align: center;
+}
+
+    
+.footer-description{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+text-align: center;
+opacity: 0.7;
 }
 
 .form{
     width: 548px;
-height: 57px;
+    height: 57px;
+    margin-left: 30%;
 }
 .form-out{
-    width: 448px;
+    width: 1048px;
     height: 47px; 
 }
 
@@ -228,8 +262,11 @@ height: 57px;
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
-    padding: 32px 150px 32px 150px;
+    /* padding: 32px 150px 32px 150px; */
     background: rgba(13, 19, 33, 0.03);
+    margin: auto;
+    width: 1080px;
+    height: 36px;
 }
 
 
