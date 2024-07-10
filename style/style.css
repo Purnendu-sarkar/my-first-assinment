@@ -156,24 +156,34 @@ height: 463px;
 border: 2px;
 /* margin: auto; */
 
+
 }
 .my-current-target-next{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    
+    
+    
 }
 
 .my-current-target-text{
     position: static;
+    
 width: 946px;
 height: 115px;
 margin: auto;
+
 }
 
 .text{
     position: static;
 width: 284px;
 height: 220px;
+}
+
+.my-current-target-img{
+    background-color: rgba(255, 76, 30, 0.05)
 }
 
 .des{
