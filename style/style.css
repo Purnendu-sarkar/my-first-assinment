@@ -23,8 +23,7 @@
     /* border: 2px solid green; */
     adding: 0px;
     position: absolute;
-    width: 998px;
-    height: 582px;
+    
     left: 121px;
      right: 221px;
     top: 50px;
@@ -78,7 +77,7 @@ border-radius: 8px;
     width: 1140px;
     margin-top: 40px;
     margin-left: 40px;
-height: 1395px;
+/* height: 1395px; */
 left: 148px;
 right: 52px;
 top: 857px;
@@ -182,6 +181,47 @@ Row height: 19px
 
 rgb(13, 19, 33)
 Align: Align left
+}
+
+
+/* footer-content */
+.footer-content{
+    border: 2px solid green;
+
+border-radius: 16px;
+padding: 64px, 48px;
+margin-top: 25px;
+margin-left: 5%;
+display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1140px;
+height: 314px;
+margin-bottom: 25px;
+background-image: url(/assets/handshake.jpg);
+
+
+
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+
+}
+
+.footer-content-text{
+    width: 730px;
+height: 104px;
+margin: auto;
+margin-top: 10px;
+}
+
+.form{
+    width: 548px;
+height: 57px;
+}
+.form-out{
+    width: 448px;
+    height: 47px; 
 }
 
 
